@@ -1,0 +1,54 @@
+* {
+  margin: 0 auto;
+}
+
+.user {
+  position: relative;
+  right: 20px;
+  top: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.profilecard {
+  font-family: 'Roboto', sans-serif;
+  /* margin: 20px auto;
+  height: 25rem;
+  width: 50rem;
+  box-shadow: 0px 0px 6px 16px;
+  border-radius: 25px;
+  display: flex;
+  margin-top: 40px;
+  background-color: azure; */
+}
+.details{
+  border: 1px solid;
+  border-radius: 11px;
+  width: 10rem;
+  box-shadow: 0px 0px 5px 3px;
+}
+.details h6{
+  font-weight: normal;
+  font-size: 14px;
+}
+.details span{
+  font-size: 15px;
+}
+.add_blog{    
+  width: 35rem;
+  box-shadow: 1px 2px 6px 8px;
+  margin: 14px auto;
+  background-color: ghostwhite;
+}
+.addblog{
+  display: flex;
+  justify-content: center;
+}
+.alert{
+position: fixed;
+left: 58rem;
+top: 125px;}
