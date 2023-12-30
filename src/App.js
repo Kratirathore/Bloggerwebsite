@@ -9,9 +9,9 @@ import SignUP from "./Component/SignUP";
 import AddBlog from "./Component/AddBlog";
 import BlogState from "./ComponentAPI/BlogState";
 import Profile from "./Component/Profile";
-import Favourite from "./Component/Favourite";
+import SaveBlog from "./Component/SaveBlog";
 import MyBlog from "./Component/MyBlog";
-import Editblog from "./Component/Editblog";
+import UpdateBlog from "./Component/UpdateBlog";
 import OpenBlog from "./Component/OpenBlog";
 // import Science from "./Component/Science";
 function App() {
@@ -31,9 +31,9 @@ function App() {
             <Route exact path="/signup" element={<SignUP />}></Route>
             <Route exact path="/addblog" element={<AddBlog />}></Route>
             <Route exact path="/profile" element={<Profile/>}></Route>
-            <Route exact path="/favourite" element={<Favourite/>}></Route>
+            <Route exact path="/favourite" element={<SaveBlog/>}></Route>
             <Route exact path="/myblog" element={<MyBlog/>}></Route>
-            <Route exact path="/edit" element={<Editblog/>}></Route>
+            <Route exact path="/edit" element={<UpdateBlog/>}></Route>
             <Route exact path="/open" element={<OpenBlog/>}></Route>
           </Routes>
         </Router>
