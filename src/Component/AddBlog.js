@@ -5,7 +5,7 @@ function AddBlog() {
   let context=useContext(BlogAPI)
   let {Alerts}=context
   let date = new Date()
-  let time = (date.toLocaleDateString() + " " + date.toLocaleTimeString())
+  let time = (date.toLocaleDateString() + "/ " + date.toLocaleTimeString())
   const [Details, setMyDetails] = useState({ title: "", description: "", tag: "" })
   const [image, setImage] = useState("")
   const [data, setMydata] = useState([])
