@@ -66,7 +66,7 @@ function LoginPage() {
                     <div className="col">
                     </div>
                     <div className="col" style={{ display: 'grid', marginTop: '10px' }}>
-                        <Link to='/signup' style={{ width: '16rem', borderRadius: '5px', textDecoration: 'none', backgroundColor: 'azure', border: '1px solid black' }}>Create your You Blog</Link>
+                        <Link to='/signup' style={{ width: '16rem', borderRadius: '5px', textDecoration: 'none', backgroundColor: 'azure', border: '1px solid black' }}>Create your You-Blog</Link>
                     </div>
                     <div className="col">
                     </div>
